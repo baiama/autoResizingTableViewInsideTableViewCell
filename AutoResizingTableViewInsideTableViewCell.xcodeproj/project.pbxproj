@@ -13,6 +13,9 @@
 		A262A44421B8ED9A005368D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A262A44321B8ED9A005368D7 /* Assets.xcassets */; };
 		A262A44721B8ED9A005368D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A262A44521B8ED9A005368D7 /* LaunchScreen.storyboard */; };
 		A262A45221B8ED9A005368D7 /* AutoResizingTableViewInsideTableViewCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262A45121B8ED9A005368D7 /* AutoResizingTableViewInsideTableViewCellTests.swift */; };
+		A262A45D21B8EE44005368D7 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262A45C21B8EE44005368D7 /* FirstTableViewCell.swift */; };
+		A262A45F21B8EE53005368D7 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262A45E21B8EE53005368D7 /* SecondTableViewCell.swift */; };
+		A262A46121B8F105005368D7 /* TableViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A262A46021B8F105005368D7 /* TableViewCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A262A44D21B8ED9A005368D7 /* AutoResizingTableViewInsideTableViewCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoResizingTableViewInsideTableViewCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A262A45121B8ED9A005368D7 /* AutoResizingTableViewInsideTableViewCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoResizingTableViewInsideTableViewCellTests.swift; sourceTree = "<group>"; };
 		A262A45321B8ED9A005368D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A262A45C21B8EE44005368D7 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		A262A45E21B8EE53005368D7 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		A262A46021B8F105005368D7 /* TableViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				A262A44321B8ED9A005368D7 /* Assets.xcassets */,
 				A262A44521B8ED9A005368D7 /* LaunchScreen.storyboard */,
 				A262A44821B8ED9A005368D7 /* Info.plist */,
+				A262A45C21B8EE44005368D7 /* FirstTableViewCell.swift */,
+				A262A45E21B8EE53005368D7 /* SecondTableViewCell.swift */,
+				A262A46021B8F105005368D7 /* TableViewCustom.swift */,
 			);
 			path = AutoResizingTableViewInsideTableViewCell;
 			sourceTree = "<group>";
@@ -197,8 +206,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A262A45D21B8EE44005368D7 /* FirstTableViewCell.swift in Sources */,
 				A262A43F21B8ED98005368D7 /* ViewController.swift in Sources */,
 				A262A43D21B8ED98005368D7 /* AppDelegate.swift in Sources */,
+				A262A46121B8F105005368D7 /* TableViewCustom.swift in Sources */,
+				A262A45F21B8EE53005368D7 /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
